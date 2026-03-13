@@ -1,0 +1,37 @@
+export const inStockKeywords = [
+  "buy now", "buy", "purchase", "order now", "place order", "checkout", "proceed to checkout",
+  "secure checkout", "complete purchase", "pay now", "get it now", "grab now", "claim now",
+  "shop now", "buy it now", "instant buy", "express checkout", "add to cart", "add to bag",
+  "add to basket", "add to trolley", "add to shopping cart", "add to shopping bag", "add item",
+  "add to order", "quick add",
+];
+
+export const outOfStockKeywords = [
+  "out of stock", "sold out", "unavailable", "currently unavailable", "not available",
+  "out of inventory", "temporarily unavailable", "no stock", "notify me", "notify me when available",
+  "email me when available", "back in stock alert", "join waitlist", "join waiting list",
+  "restock alert", "get notified", "pre order", "preorder", "backorder",
+];
+
+export const interactableSelectors = [
+  'input[type="radio"]',
+  'input[type="checkbox"]',
+  '[role="radio"]',
+  '[role="option"]',
+  'div[role="listbox"]',
+  '[role="switch"]',
+  "select",
+  "option",
+  "label",
+  ".swatch",
+  "[data-value]",
+  "[data-option]",
+  "[data-variant]",
+  "[data-property]",
+  'button[type="button"]:not([name="add"]):not([name="checkout"])',
+];
+
+export const INVALID_ATTRIBUTE_KEYWORDS = [
+  "share", "quantity", "qty", "cart", "wishlist", "compare", "guide", "chart", "increment",
+  "decrement", "plus", "minus", "check", "thumbnail", "stepper",
+];

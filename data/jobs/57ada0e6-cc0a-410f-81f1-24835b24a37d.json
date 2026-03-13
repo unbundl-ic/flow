@@ -1,0 +1,161 @@
+{
+  "_id": "57ada0e6-cc0a-410f-81f1-24835b24a37d",
+  "flowId": "b0557a3f-ca00-45af-a074-a19ab303fa8d",
+  "brandId": "saral",
+  "type": "collection-scrape",
+  "status": "completed",
+  "logs": [
+    "Started collection-scrape for saral",
+    "[4:22:28 pm] Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+    "[4:22:30 pm] Failed to load resource: net::ERR_FAILED",
+    "[4:22:32 pm] Failed to load resource: the server responded with a status of 404 ()",
+    "[4:22:33 pm] Failed to load resource: the server responded with a status of 404 ()",
+    "[4:22:35 pm] Failed to load resource: net::ERR_FAILED",
+    "[4:22:35 pm] Page viewed {id: sh-e1ad63bc-F3C4-46A0-BA93-EF814266D6BC, name: page_viewed, data: Object, type: standard, timestamp: 2026-03-12T10:52:33.255Z}",
+    "[4:22:36 pm] fetching data to inject",
+    "[4:22:38 pm] object {parent: .categories-block-wrap>.category-block:nth-child(1) .category-block-cards-wrapper, slidesToShow: 1, slidesToScroll: 1, autoplay: false, arrows: true}",
+    "[4:22:40 pm] Analytics enabled",
+    "[4:22:41 pm] Replay is disabled because neither `replaysSessionSampleRate` nor `replaysOnErrorSampleRate` are set.",
+    "[4:22:41 pm] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold",
+    "[4:22:44 pm] Found 3 products. Starting variant scrape...",
+    "[4:22:45 pm] Scraping product: https://saralhome.com/products/all-over-cotton-striped-queen-size-quilt-90x100",
+    "[4:22:48 pm] Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+    "[4:22:49 pm] Failed to load resource: net::ERR_FAILED",
+    "[4:22:50 pm] script loaded",
+    "[4:22:51 pm] productPercentage {}",
+    "[4:22:52 pm] fetching data to inject",
+    "[4:22:55 pm] Failed to load resource: the server responded with a status of 400 ()",
+    "[4:22:55 pm] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold",
+    "[4:22:59 pm] [.WebGL-0x21c404360d00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[4:23:37 pm] working",
+    "[4:23:37 pm] script loaded",
+    "[4:23:39 pm] working",
+    "[4:23:40 pm] Failed to load resource: the server responded with a status of 422 ()",
+    "[4:23:41 pm] working",
+    "[4:23:42 pm] Failed to load resource: the server responded with a status of 422 ()",
+    "[4:23:44 pm] working",
+    "[4:23:44 pm] Failed to load resource: the server responded with a status of 422 ()",
+    "[4:23:46 pm] Scraping product: https://saralhome.com/products/chawla-striped-queen-size-quilt-90x100",
+    "[4:23:46 pm] Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+    "[4:23:46 pm] Failed to load resource: net::ERR_FAILED",
+    "[4:23:46 pm] Failed to load resource: net::ERR_FAILED",
+    "[4:23:47 pm] productPercentage {}",
+    "[4:23:48 pm] Failed to load resource: net::ERR_FAILED",
+    "[4:23:48 pm] object {parent: .categories-block-wrap>.category-block:nth-child(1) .category-block-cards-wrapper, slidesToShow: 1, slidesToScroll: 1, autoplay: false, arrows: true}",
+    "[4:23:49 pm] Page viewed {id: sh-e1ae6781-DF7B-423A-3A2C-C4C1CE48789C, name: page_viewed, data: Object, type: standard, timestamp: 2026-03-12T10:53:47.694Z}",
+    "[4:23:49 pm] Failed to load resource: the server responded with a status of 400 ()",
+    "[4:23:49 pm] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold",
+    "[4:24:07 pm] working",
+    "[4:24:07 pm] script loaded",
+    "[4:24:09 pm] working",
+    "[4:24:10 pm] Failed to load resource: the server responded with a status of 422 ()",
+    "[4:24:11 pm] working",
+    "[4:24:12 pm] Failed to load resource: the server responded with a status of 422 ()",
+    "[4:24:13 pm] working",
+    "[4:24:14 pm] Failed to load resource: the server responded with a status of 422 ()",
+    "[4:24:15 pm] Scraping product: https://saralhome.com/products/joy-handmade-striped-queen-size-quilt-90x100",
+    "[4:24:16 pm] Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+    "[4:24:16 pm] Failed to load resource: net::ERR_FAILED",
+    "[4:24:16 pm] script loaded",
+    "[4:24:16 pm] productPercentage {}",
+    "[4:24:16 pm] fetching data to inject",
+    "[4:24:16 pm] object {parent: .categories-block-wrap>.category-block:nth-child(1) .category-block-cards-wrapper, slidesToShow: 1, slidesToScroll: 1, autoplay: false, arrows: true}",
+    "[4:24:17 pm] Failed to load resource: the server responded with a status of 400 ()",
+    "[4:24:17 pm] Page viewed {id: sh-e1aed613-AB85-4912-5865-693F03C3E22F, name: page_viewed, data: Object, type: standard, timestamp: 2026-03-12T10:54:16.715Z}",
+    "[4:24:17 pm] Loox script loaded - please reinstall Loox to enable photo/video reviews - https://loox.io/app/reinstall",
+    "[4:24:17 pm] %c Video shopping powered by Whatmore! background: #D53F8C; color: white; font-size: 19px; padding: 5px; font-weight: semibold; \n\nFind us here -> https://www.whatmore.ai/shoppable-videos/",
+    "[4:24:17 pm] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold",
+    "[4:24:37 pm] working",
+    "[4:24:37 pm] script loaded",
+    "[4:24:39 pm] working",
+    "[4:24:40 pm] Failed to load resource: the server responded with a status of 422 ()",
+    "[4:24:41 pm] working",
+    "[4:24:42 pm] Failed to load resource: the server responded with a status of 422 ()",
+    "[4:24:43 pm] working",
+    "[4:24:44 pm] Failed to load resource: the server responded with a status of 422 ()",
+    "[4:24:46 pm] working",
+    "[4:24:46 pm] Failed to load resource: the server responded with a status of 422 ()",
+    "[4:24:48 pm] Scrape completed successfully."
+  ],
+  "createdAt": "2026-03-12T10:52:19.978Z",
+  "updatedAt": "2026-03-12T10:54:48.084Z",
+  "results": {
+    "products": [
+      {
+        "url": "https://saralhome.com/products/all-over-cotton-striped-queen-size-quilt-90x100",
+        "name": "All Over Cotton Striped Queen Size Quilt (90X100)",
+        "variants": [
+          {
+            "name": "",
+            "available": true
+          },
+          {
+            "name": "",
+            "available": true
+          },
+          {
+            "name": "",
+            "available": true
+          },
+          {
+            "name": "",
+            "available": true
+          }
+        ]
+      },
+      {
+        "url": "https://saralhome.com/products/chawla-striped-queen-size-quilt-90x100",
+        "name": "Chawla Striped Queen Size Quilt (90X100)",
+        "variants": [
+          {
+            "name": "",
+            "available": true
+          },
+          {
+            "name": "",
+            "available": true
+          },
+          {
+            "name": "",
+            "available": true
+          },
+          {
+            "name": "",
+            "available": true
+          }
+        ]
+      },
+      {
+        "url": "https://saralhome.com/products/joy-handmade-striped-queen-size-quilt-90x100",
+        "name": "Joy Handmade Striped Queen Size Quilt (90X100)",
+        "variants": [
+          {
+            "name": "",
+            "available": true
+          },
+          {
+            "name": "",
+            "available": true
+          },
+          {
+            "name": "",
+            "available": true
+          },
+          {
+            "name": "",
+            "available": true
+          },
+          {
+            "name": "",
+            "available": true
+          }
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "performanceScore": 79,
+    "lcp": 1284,
+    "cls": 0
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "c3df9d29-30a8-4dd4-bd86-3c6a8eff2a40",
+  "flowId": "a504a8f0-4a0b-41e6-86de-2015811788cb",
+  "brandId": "sample-brand",
+  "type": "collection-scrape",
+  "status": "running",
+  "logs": [
+    "Started collection-scrape for sample-brand",
+    "[9:13:18 pm] Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+    "[9:13:18 pm] Failed to load resource: the server responded with a status of 404 ()",
+    "[9:13:19 pm] Failed to load resource: the server responded with a status of 404 ()",
+    "[9:13:19 pm] Failed to load resource: the server responded with a status of 404 ()",
+    "[9:13:19 pm] Page viewed {id: sh-dd911ca9-ED96-4274-3DB0-5BB66C243F6D, name: page_viewed, data: Object, type: standard, timestamp: 2026-03-11T15:43:19.259Z}",
+    "[9:13:20 pm] fetching data to inject",
+    "[9:13:20 pm] object {parent: .categories-block-wrap>.category-block:nth-child(1) .category-block-cards-wrapper, slidesToShow: 1, slidesToScroll: 1, autoplay: false, arrows: true}",
+    "[9:13:21 pm] Wednesday"
+  ],
+  "createdAt": "2026-03-11T15:43:17.539Z",
+  "updatedAt": "2026-03-11T15:43:17.539Z"
+}
+}

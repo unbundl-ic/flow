@@ -1,0 +1,20 @@
+{
+  "_id": "7fb5920f-029d-4d4c-9889-38c7d6fdb518",
+  "flowId": "b0557a3f-ca00-45af-a074-a19ab303fa8d",
+  "brandId": "saral",
+  "type": "collection-scrape",
+  "status": "running",
+  "logs": [
+    "Started collection-scrape for saral",
+    "[12:45:56 pm] Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+    "[12:45:58 pm] Failed to load resource: net::ERR_FAILED",
+    "[12:45:59 pm] Failed to load resource: the server responded with a status of 404 ()",
+    "[12:46:01 pm] Failed to load resource: the server responded with a status of 404 ()",
+    "[12:46:03 pm] Page viewed {id: sh-e0e71d55-F47E-4C7A-E1BC-6B474B01E141, name: page_viewed, data: Object, type: standard, timestamp: 2026-03-12T07:16:00.840Z}",
+    "[12:46:04 pm] fetching data to inject"
+  ],
+  "createdAt": "2026-03-12T07:15:51.004Z",
+  "updatedAt": "2026-03-12T07:15:51.004Z"
+}eatedAt": "2026-03-12T07:15:51.004Z",
+  "updatedAt": "2026-03-12T07:15:51.004Z"
+}

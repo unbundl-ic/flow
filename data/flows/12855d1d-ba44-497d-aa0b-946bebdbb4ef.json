@@ -1,0 +1,17 @@
+{
+  "id": "12855d1d-ba44-497d-aa0b-946bebdbb4ef",
+  "name": "General Dentistry Lead Form",
+  "url": "https://clovedental.in/promotion/general-dentistry-local-north.php",
+  "brandId": "clove-dental",
+  "formData": {
+    "name": "Abhishek",
+    "phone": "9898989898"
+  },
+  "schedule": {
+    "type": "hourly",
+    "active": false,
+    "lastRun": "2026-03-06T11:30:08.241Z"
+  },
+  "createdAt": "2026-03-06T10:43:20.516Z",
+  "updatedAt": "2026-03-06T12:13:08.668Z"
+}

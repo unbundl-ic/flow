@@ -1,0 +1,19 @@
+{
+  "_id": "6caa2a0d-7c4d-4181-bc17-78e0d5ba23d3",
+  "flowId": "b0557a3f-ca00-45af-a074-a19ab303fa8d",
+  "brandId": "saral",
+  "type": "collection-scrape",
+  "status": "running",
+  "logs": [
+    "Started collection-scrape for saral",
+    "[12:09:34 pm] Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+    "[12:09:36 pm] Failed to load resource: the server responded with a status of 404 ()",
+    "[12:09:37 pm] Page viewed {id: sh-e0c5b03d-23AF-4BDA-B6D1-7632390B2DD3, name: page_viewed, data: Object, type: standard, timestamp: 2026-03-12T06:39:35.768Z}",
+    "[12:09:38 pm] object {parent: .categories-block-wrap>.category-block:nth-child(1) .category-block-cards-wrapper, slidesToShow: 1, slidesToScroll: 1, autoplay: false, arrows: true}",
+    "[12:09:39 pm] Failed to load resource: the server responded with a status of 400 ()",
+    "[12:09:39 pm] Thursday"
+  ],
+  "createdAt": "2026-03-12T06:39:31.457Z",
+  "updatedAt": "2026-03-12T06:39:31.457Z"
+}"
+}

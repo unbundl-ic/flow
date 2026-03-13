@@ -1,0 +1,13 @@
+{
+  "_id": "b862ad92-dc08-47b9-a0f5-61ff8a726f31",
+  "flowId": "919f784a-9e1f-4b7e-9fba-48b48bbb6789",
+  "brandId": "onitsuka-tiger",
+  "type": "form-submission",
+  "status": "failed",
+  "logs": [
+    "[Scheduler] Auto-triggering flow \"Mexico Sabot\"",
+    "[6:00:00 pm] Form submission not implemented for Onitsuka Tiger."
+  ],
+  "createdAt": "2026-03-06T12:30:00.020Z",
+  "updatedAt": "2026-03-06T12:30:00.192Z"
+}

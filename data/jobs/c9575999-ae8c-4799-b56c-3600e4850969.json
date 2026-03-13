@@ -1,0 +1,741 @@
+{
+  "_id": "c9575999-ae8c-4799-b56c-3600e4850969",
+  "flowId": "919f784a-9e1f-4b7e-9fba-48b48bbb6789",
+  "brandId": "onitsuka-tiger",
+  "type": "collection-scrape",
+  "status": "completed",
+  "logs": [
+    "Started collection-scrape for onitsuka-tiger",
+    "[8:00:16 pm] Found 5 products. Starting variant scrape...",
+    "[8:00:16 pm] Scraping product: https://www.onitsukatiger.com/in/en-in/product/mexico-66-sabot/1183c123.251.html",
+    "[8:00:17 pm] Fallback to JQueryUI Compat activated. Your store is missing a dependency for a jQueryUI widget. Identifying and addressing the dependency will drastically improve the performance of your site.",
+    "[8:00:18 pm] Connecting to 'https://www.google.co.in/pagead/1p-conversion/431797245/?random=2130368602&cv=11&fst=1773239417882&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6391v9104831821z89173883913za20gzb9173883913zd9173883913xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~115938465~115938469~116024733~117484252~117625642&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.onitsukatiger.com%2Fin%2Fen-in%2Fmen%2Fshoes%2Fmexico-sabot.html&label=uxHJCL6zr_QBEP3n8s0B&capi=1&frm=0&tiba=Mexico%20Sabot%20-%20Shoes%20-%20Men&value=ecommerce.v...vOu8XYOYhYIqlx5Fgnbgo0HWi3uCKb9ZfDg&random=2538646211&ipr=y&pscrd=IhMIyYnXsoeYkwMVo7RjBh31GC7RMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOh5odHRwczovL3d3dy5vbml0c3VrYXRpZ2VyLmNvbS9CWENoRUk4S1hFelFZUTFiRExuNjNBbWZUTUFSSXRBSjFDTURlT2NqRkdhOGJ0Mi1vbkdWbElxYlNDQVpXRlhGRGJNMUNYYURMRHQxUG1vdk1pblYzNkg3SFd6DAgJYggIABAAGAAgAIIBBXABiAEB' violates the following Content Security Policy directive: \"connect-src dpm.demdex.net amcglobal.sc.omtrdc.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com www.google-analytics.com www.googleadservices.com analytics.google.com www.googletagmanager.com *.search-admin-ui-qa.magento-datasolutions.com search-admin-ui-qa.magento-datasolutions.com *.search-admin-ui.magento-ds.com search-admin-ui.magento-ds.com *.telemetry-dev.adobe.io telemetry-dev.adobe.io *.telemetry.adobe.io telemetry.adobe.io p13n.adobe.io p13n-mr.adobe.io *.sentry.io *.sentry-cdn.com plp-widgets-ui-qa.magento-datasolutions.com plp-widgets-ui.magento.ds.com searchautocompleteqa.magento-datasolutions.com livesearch-autocomplete.magento-ds.com livesearch-metrics-qa.magento-datasolutions.com livesearch-metrics.magento-ds.com commerce-int.adobe.io commerce.adobe.io *.snplow.net commerce.adobedc.net *.newrelic.com *.nr-data.net vimeo.com api.magento.com *.adobe.io performance.typekit.net www.sandbox.paypal.com www.paypalobjects.com www.paypal.com pilot-payflowlink.paypal.com *.paypal.com google.com *.google.com *.braintreegateway.com *.braintree-api.com *.magento-datasolutions.com *.magento-ds.com *.ccavenue.com api.braintreegateway.com api.sandbox.braintreegateway.com client-analytics.braintreegateway.com client-analytics.sandbox.braintreegateway.com *.cardinalcommerce.com lumberjack.razorpay.com lumberjack-metrics.razorpay.com *.google-analytics.com *.facebook.net *.redditstatic.com *.reddit.com *.tiktok.com *.doubleclick.net *.run.app static-mc-india.onitsukatiger.com cdn.cookielaw.org c.go-mpulse.net o.clarity.ms https://684d0d47.akstat.io https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location 'self' 'unsafe-inline'\". The policy is report-only, so the violation has been logged but no further action has been taken.",
+    "[8:00:27 pm] Fallback to JQueryUI Compat activated. Your store is missing a dependency for a jQueryUI widget. Identifying and addressing the dependency will drastically improve the performance of your site.",
+    "[8:00:27 pm] [Meta Pixel] - Duplicate Pixel ID: 421120948497451.",
+    "[8:00:31 pm] Connecting to 'https://www.google.co.in/pagead/1p-conversion/431797245/?random=438677707&cv=11&fst=1773239428004&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6391v9104831821z89173883913za20gzb9173883913zd9173883913xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~115616985~115938465~115938469~116024733~117484252&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.onitsukatiger.com%2Fin%2Fen-in%2Fproduct%2Fmexico-66-sabot%2F1183c123.251.html&label=uxHJCL6zr_QBEP3n8s0B&capi=1&frm=0&tiba=MEXICO%2066%20SABOT&value=ecommerce.value...oRUk4S1hFelFZUTFiRExuNjNBbWZUTUFSSXRBSjFDTURmbHZDdFBkVW5oOWFmaHZKRkEwbUw1UHJvZkJ6TzM4RE9Ndml1YUxKaWdMbkZla1o5YkZPZkx6DAgJYggIABAAGAAgAA&is_vtc=1&cid=CAQSvwEA56J1edx-cERwKS3h1XmcsEtmE4v2IygSltihyznLGl-tc5XRfILI6JYmVa6hoQz7WkNixakOPncx9NhmVlll57l8fIDjkuc0zZxxmU_Q2dhZtLX3qekwgSYnd7uq3-7OQ-w28E5_VUOT2oLRYIruPEM4otU6GPKms0NFTtGpF0tBHIHCOlR13vmnYWJO9fZKe2qqGzq4QiSCUivOiMLlnGueiOzEbi_deOZnye0g665NAED1M2i-hxOBaSllvQ&eitems=ChEI8KXEzQYQyLPu5umWk-2TARIdAFQmvOs1v2_hd-JXmRmYJvQDbAxIPnaZZ97ou04&random=3254983939&ipr=y' violates the following Content Security Policy directive: \"connect-src dpm.demdex.net amcglobal.sc.omtrdc.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com www.google-analytics.com www.googleadservices.com analytics.google.com www.googletagmanager.com *.search-admin-ui-qa.magento-datasolutions.com search-admin-ui-qa.magento-datasolutions.com *.search-admin-ui.magento-ds.com search-admin-ui.magento-ds.com *.telemetry-dev.adobe.io telemetry-dev.adobe.io *.telemetry.adobe.io telemetry.adobe.io p13n.adobe.io p13n-mr.adobe.io *.sentry.io *.sentry-cdn.com plp-widgets-ui-qa.magento-datasolutions.com plp-widgets-ui.magento.ds.com searchautocompleteqa.magento-datasolutions.com livesearch-autocomplete.magento-ds.com livesearch-metrics-qa.magento-datasolutions.com livesearch-metrics.magento-ds.com commerce-int.adobe.io commerce.adobe.io *.snplow.net commerce.adobedc.net *.newrelic.com *.nr-data.net vimeo.com api.magento.com *.adobe.io performance.typekit.net www.sandbox.paypal.com www.paypalobjects.com www.paypal.com pilot-payflowlink.paypal.com *.paypal.com google.com *.google.com *.braintreegateway.com *.braintree-api.com *.magento-datasolutions.com *.magento-ds.com *.ccavenue.com api.braintreegateway.com api.sandbox.braintreegateway.com client-analytics.braintreegateway.com client-analytics.sandbox.braintreegateway.com *.cardinalcommerce.com lumberjack.razorpay.com lumberjack-metrics.razorpay.com *.google-analytics.com *.facebook.net *.redditstatic.com *.reddit.com *.tiktok.com *.doubleclick.net *.run.app static-mc-india.onitsukatiger.com cdn.cookielaw.org c.go-mpulse.net o.clarity.ms https://684d0d47.akstat.io https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location 'self' 'unsafe-inline'\". The policy is report-only, so the violation has been logged but no further action has been taken.",
+    "[8:00:36 pm] Expected to start loader but did not find one in the dom",
+    "[8:00:36 pm] Expected to start loader but did not find one in the dom",
+    "[8:00:42 pm] Scraping product: https://www.onitsukatiger.com/in/en-in/product/mexico-66-sabot/1183c123.104.html",
+    "[8:00:52 pm] Fallback to JQueryUI Compat activated. Your store is missing a dependency for a jQueryUI widget. Identifying and addressing the dependency will drastically improve the performance of your site.",
+    "[8:00:53 pm] [Meta Pixel] - Duplicate Pixel ID: 421120948497451.",
+    "[8:00:53 pm] Connecting to 'https://www.facebook.com/tr/' violates the following Content Security Policy directive: \"connect-src dpm.demdex.net amcglobal.sc.omtrdc.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com www.google-analytics.com www.googleadservices.com analytics.google.com www.googletagmanager.com *.search-admin-ui-qa.magento-datasolutions.com search-admin-ui-qa.magento-datasolutions.com *.search-admin-ui.magento-ds.com search-admin-ui.magento-ds.com *.telemetry-dev.adobe.io telemetry-dev.adobe.io *.telemetry.adobe.io telemetry.adobe.io p13n.adobe.io p13n-mr.adobe.io *.sentry.io *.sentry-cdn.com plp-widgets-ui-qa.magento-datasolutions.com plp-widgets-ui.magento.ds.com searchautocompleteqa.magento-datasolutions.com livesearch-autocomplete.magento-ds.com livesearch-metrics-qa.magento-datasolutions.com livesearch-metrics.magento-ds.com commerce-int.adobe.io commerce.adobe.io *.snplow.net commerce.adobedc.net *.newrelic.com *.nr-data.net vimeo.com api.magento.com *.adobe.io performance.typekit.net www.sandbox.paypal.com www.paypalobjects.com www.paypal.com pilot-payflowlink.paypal.com *.paypal.com google.com *.google.com *.braintreegateway.com *.braintree-api.com *.magento-datasolutions.com *.magento-ds.com *.ccavenue.com api.braintreegateway.com api.sandbox.braintreegateway.com client-analytics.braintreegateway.com client-analytics.sandbox.braintreegateway.com *.cardinalcommerce.com lumberjack.razorpay.com lumberjack-metrics.razorpay.com *.google-analytics.com *.facebook.net *.redditstatic.com *.reddit.com *.tiktok.com *.doubleclick.net *.run.app static-mc-india.onitsukatiger.com cdn.cookielaw.org c.go-mpulse.net o.clarity.ms https://684d0d47.akstat.io https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location 'self' 'unsafe-inline'\". The policy is report-only, so the violation has been logged but no further action has been taken.",
+    "[8:00:55 pm] Connecting to 'https://www.google.co.in/pagead/1p-conversion/431797245/?random=1382513225&cv=11&fst=1773239453384&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6391v9104831821z89173883913za20gzb9173883913zd9173883913xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~115938465~115938468~116024733~117484252&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.onitsukatiger.com%2Fin%2Fen-in%2Fproduct%2Fmexico-66-sabot%2F1183c123.104.html&label=uxHJCL6zr_QBEP3n8s0B&capi=1&frm=0&tiba=Onitsuka%20Tiger%20MEXICO%2066%20SABOT%20CREAM%2FM...7wts7rTPyLgDmRuc0Yoq3oPepW3gU&random=2624388008&ipr=y&pscrd=IhMItOfLw4eYkwMV7vagAh0OYCC_MgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOh5odHRwczovL3d3dy5vbml0c3VrYXRpZ2VyLmNvbS9CWENoRUk4S1hFelFZUTFiRExuNjNBbWZUTUFSSXRBSjFDTURkZkNSUWdvSHE3YnBKWENQckljeTRlSC1ONUdadHpnYVRwM2FGWEhlaUVQV1EtZGNIQzU0c2t6DAgJYggIABAAGAAgAIIBCXABiAEB4gEBAQ' violates the following Content Security Policy directive: \"connect-src dpm.demdex.net amcglobal.sc.omtrdc.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com www.google-analytics.com www.googleadservices.com analytics.google.com www.googletagmanager.com *.search-admin-ui-qa.magento-datasolutions.com search-admin-ui-qa.magento-datasolutions.com *.search-admin-ui.magento-ds.com search-admin-ui.magento-ds.com *.telemetry-dev.adobe.io telemetry-dev.adobe.io *.telemetry.adobe.io telemetry.adobe.io p13n.adobe.io p13n-mr.adobe.io *.sentry.io *.sentry-cdn.com plp-widgets-ui-qa.magento-datasolutions.com plp-widgets-ui.magento.ds.com searchautocompleteqa.magento-datasolutions.com livesearch-autocomplete.magento-ds.com livesearch-metrics-qa.magento-datasolutions.com livesearch-metrics.magento-ds.com commerce-int.adobe.io commerce.adobe.io *.snplow.net commerce.adobedc.net *.newrelic.com *.nr-data.net vimeo.com api.magento.com *.adobe.io performance.typekit.net www.sandbox.paypal.com www.paypalobjects.com www.paypal.com pilot-payflowlink.paypal.com *.paypal.com google.com *.google.com *.braintreegateway.com *.braintree-api.com *.magento-datasolutions.com *.magento-ds.com *.ccavenue.com api.braintreegateway.com api.sandbox.braintreegateway.com client-analytics.braintreegateway.com client-analytics.sandbox.braintreegateway.com *.cardinalcommerce.com lumberjack.razorpay.com lumberjack-metrics.razorpay.com *.google-analytics.com *.facebook.net *.redditstatic.com *.reddit.com *.tiktok.com *.doubleclick.net *.run.app static-mc-india.onitsukatiger.com cdn.cookielaw.org c.go-mpulse.net o.clarity.ms https://684d0d47.akstat.io https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location 'self' 'unsafe-inline'\". The policy is report-only, so the violation has been logged but no further action has been taken.",
+    "[8:01:03 pm] Expected to start loader but did not find one in the dom",
+    "[8:01:03 pm] Expected to start loader but did not find one in the dom",
+    "[8:01:12 pm] Scraping product: https://www.onitsukatiger.com/in/en-in/product/mexico-66-sabot/1183c123.103.html",
+    "[8:01:22 pm] Connecting to 'https://www.google.co.in/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-3ZMGVH9Z70&cid=1699614039.1773239417&gtm=45je6391v9173431006za20gzb9173883913zd9173883913&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=103116026~103200004~115938465~115938468~116024733~117484252&z=188987818' violates the following Content Security Policy directive: \"connect-src dpm.demdex.net amcglobal.sc.omtrdc.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com www.google-analytics.com www.googleadservices.com analytics.google.com www.googletagmanager.com *.search-admin-ui-qa.magento-datasolutions.com search-admin-ui-qa.magento-datasolutions.com *.search-admin-ui.magento-ds.com search-admin-ui.magento-ds.com *.telemetry-dev.adobe.io telemetry-dev.adobe.io *.telemetry.adobe.io telemetry.adobe.io p13n.adobe.io p13n-mr.adobe.io *.sentry.io *.sentry-cdn.com plp-widgets-ui-qa.magento-datasolutions.com plp-widgets-ui.magento.ds.com searchautocompleteqa.magento-datasolutions.com livesearch-autocomplete.magento-ds.com livesearch-metrics-qa.magento-datasolutions.com livesearch-metrics.magento-ds.com commerce-int.adobe.io commerce.adobe.io *.snplow.net commerce.adobedc.net *.newrelic.com *.nr-data.net vimeo.com api.magento.com *.adobe.io performance.typekit.net www.sandbox.paypal.com www.paypalobjects.com www.paypal.com pilot-payflowlink.paypal.com *.paypal.com google.com *.google.com *.braintreegateway.com *.braintree-api.com *.magento-datasolutions.com *.magento-ds.com *.ccavenue.com api.braintreegateway.com api.sandbox.braintreegateway.com client-analytics.braintreegateway.com client-analytics.sandbox.braintreegateway.com *.cardinalcommerce.com lumberjack.razorpay.com lumberjack-metrics.razorpay.com *.google-analytics.com *.facebook.net *.redditstatic.com *.reddit.com *.tiktok.com *.doubleclick.net *.run.app static-mc-india.onitsukatiger.com cdn.cookielaw.org c.go-mpulse.net o.clarity.ms https://684d0d47.akstat.io https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location 'self' 'unsafe-inline'\". The policy is report-only, so the violation has been logged but no further action has been taken.",
+    "[8:01:23 pm] Fallback to JQueryUI Compat activated. Your store is missing a dependency for a jQueryUI widget. Identifying and addressing the dependency will drastically improve the performance of your site.",
+    "[8:01:23 pm] [Meta Pixel] - Duplicate Pixel ID: 421120948497451.",
+    "[8:01:23 pm] Connecting to 'https://www.facebook.com/tr/' violates the following Content Security Policy directive: \"connect-src dpm.demdex.net amcglobal.sc.omtrdc.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com www.google-analytics.com www.googleadservices.com analytics.google.com www.googletagmanager.com *.search-admin-ui-qa.magento-datasolutions.com search-admin-ui-qa.magento-datasolutions.com *.search-admin-ui.magento-ds.com search-admin-ui.magento-ds.com *.telemetry-dev.adobe.io telemetry-dev.adobe.io *.telemetry.adobe.io telemetry.adobe.io p13n.adobe.io p13n-mr.adobe.io *.sentry.io *.sentry-cdn.com plp-widgets-ui-qa.magento-datasolutions.com plp-widgets-ui.magento.ds.com searchautocompleteqa.magento-datasolutions.com livesearch-autocomplete.magento-ds.com livesearch-metrics-qa.magento-datasolutions.com livesearch-metrics.magento-ds.com commerce-int.adobe.io commerce.adobe.io *.snplow.net commerce.adobedc.net *.newrelic.com *.nr-data.net vimeo.com api.magento.com *.adobe.io performance.typekit.net www.sandbox.paypal.com www.paypalobjects.com www.paypal.com pilot-payflowlink.paypal.com *.paypal.com google.com *.google.com *.braintreegateway.com *.braintree-api.com *.magento-datasolutions.com *.magento-ds.com *.ccavenue.com api.braintreegateway.com api.sandbox.braintreegateway.com client-analytics.braintreegateway.com client-analytics.sandbox.braintreegateway.com *.cardinalcommerce.com lumberjack.razorpay.com lumberjack-metrics.razorpay.com *.google-analytics.com *.facebook.net *.redditstatic.com *.reddit.com *.tiktok.com *.doubleclick.net *.run.app static-mc-india.onitsukatiger.com cdn.cookielaw.org c.go-mpulse.net o.clarity.ms https://684d0d47.akstat.io https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location 'self' 'unsafe-inline'\". The policy is report-only, so the violation has been logged but no further action has been taken.",
+    "[8:01:25 pm] Connecting to 'https://www.google.co.in/pagead/1p-conversion/431797245/?random=124033379&cv=11&fst=1773239483832&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6391v9104831821z89173883913za20gzb9173883913zd9173883913xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~115616986~115938466~115938469~116024733~117484252&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.onitsukatiger.com%2Fin%2Fen-in%2Fproduct%2Fmexico-66-sabot%2F1183c123.103.html&label=uxHJCL6zr_QBEP3n8s0B&capi=1&frm=0&tiba=Onitsuka%20Tiger%20MEXICO%2066%20SABOT%20...6agiEIMa6bHXNrb-0IEe0fOqleZ6g&random=2152667222&ipr=y&pscrd=IhMIgeiO0oeYkwMVLqJjBh0M2wCTMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOh5odHRwczovL3d3dy5vbml0c3VrYXRpZ2VyLmNvbS9CWENoRUk4S1hFelFZUTFiRExuNjNBbWZUTUFSSXRBSjFDTURkTG00Z2thcVVPTFlnTEpGcTJjNXZyMW5tZHFjZUFReHRaX0FTV1g4RDBSa25hWkJUZS1kVjl6DAgJYggIABAAGAAgAIIBCXABiAEB4gEBAQ' violates the following Content Security Policy directive: \"connect-src dpm.demdex.net amcglobal.sc.omtrdc.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com www.google-analytics.com www.googleadservices.com analytics.google.com www.googletagmanager.com *.search-admin-ui-qa.magento-datasolutions.com search-admin-ui-qa.magento-datasolutions.com *.search-admin-ui.magento-ds.com search-admin-ui.magento-ds.com *.telemetry-dev.adobe.io telemetry-dev.adobe.io *.telemetry.adobe.io telemetry.adobe.io p13n.adobe.io p13n-mr.adobe.io *.sentry.io *.sentry-cdn.com plp-widgets-ui-qa.magento-datasolutions.com plp-widgets-ui.magento.ds.com searchautocompleteqa.magento-datasolutions.com livesearch-autocomplete.magento-ds.com livesearch-metrics-qa.magento-datasolutions.com livesearch-metrics.magento-ds.com commerce-int.adobe.io commerce.adobe.io *.snplow.net commerce.adobedc.net *.newrelic.com *.nr-data.net vimeo.com api.magento.com *.adobe.io performance.typekit.net www.sandbox.paypal.com www.paypalobjects.com www.paypal.com pilot-payflowlink.paypal.com *.paypal.com google.com *.google.com *.braintreegateway.com *.braintree-api.com *.magento-datasolutions.com *.magento-ds.com *.ccavenue.com api.braintreegateway.com api.sandbox.braintreegateway.com client-analytics.braintreegateway.com client-analytics.sandbox.braintreegateway.com *.cardinalcommerce.com lumberjack.razorpay.com lumberjack-metrics.razorpay.com *.google-analytics.com *.facebook.net *.redditstatic.com *.reddit.com *.tiktok.com *.doubleclick.net *.run.app static-mc-india.onitsukatiger.com cdn.cookielaw.org c.go-mpulse.net o.clarity.ms https://684d0d47.akstat.io https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location 'self' 'unsafe-inline'\". The policy is report-only, so the violation has been logged but no further action has been taken.",
+    "[8:01:33 pm] Expected to start loader but did not find one in the dom",
+    "[8:01:33 pm] Expected to start loader but did not find one in the dom",
+    "[8:01:43 pm] Scraping product: https://www.onitsukatiger.com/in/en-in/product/mexico-66-sabot/1183c123.100.html",
+    "[8:01:53 pm] Fallback to JQueryUI Compat activated. Your store is missing a dependency for a jQueryUI widget. Identifying and addressing the dependency will drastically improve the performance of your site.",
+    "[8:01:53 pm] [Meta Pixel] - Duplicate Pixel ID: 421120948497451.",
+    "[8:01:53 pm] Connecting to 'https://www.facebook.com/tr/' violates the following Content Security Policy directive: \"connect-src dpm.demdex.net amcglobal.sc.omtrdc.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com www.google-analytics.com www.googleadservices.com analytics.google.com www.googletagmanager.com *.search-admin-ui-qa.magento-datasolutions.com search-admin-ui-qa.magento-datasolutions.com *.search-admin-ui.magento-ds.com search-admin-ui.magento-ds.com *.telemetry-dev.adobe.io telemetry-dev.adobe.io *.telemetry.adobe.io telemetry.adobe.io p13n.adobe.io p13n-mr.adobe.io *.sentry.io *.sentry-cdn.com plp-widgets-ui-qa.magento-datasolutions.com plp-widgets-ui.magento.ds.com searchautocompleteqa.magento-datasolutions.com livesearch-autocomplete.magento-ds.com livesearch-metrics-qa.magento-datasolutions.com livesearch-metrics.magento-ds.com commerce-int.adobe.io commerce.adobe.io *.snplow.net commerce.adobedc.net *.newrelic.com *.nr-data.net vimeo.com api.magento.com *.adobe.io performance.typekit.net www.sandbox.paypal.com www.paypalobjects.com www.paypal.com pilot-payflowlink.paypal.com *.paypal.com google.com *.google.com *.braintreegateway.com *.braintree-api.com *.magento-datasolutions.com *.magento-ds.com *.ccavenue.com api.braintreegateway.com api.sandbox.braintreegateway.com client-analytics.braintreegateway.com client-analytics.sandbox.braintreegateway.com *.cardinalcommerce.com lumberjack.razorpay.com lumberjack-metrics.razorpay.com *.google-analytics.com *.facebook.net *.redditstatic.com *.reddit.com *.tiktok.com *.doubleclick.net *.run.app static-mc-india.onitsukatiger.com cdn.cookielaw.org c.go-mpulse.net o.clarity.ms https://684d0d47.akstat.io https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location 'self' 'unsafe-inline'\". The policy is report-only, so the violation has been logged but no further action has been taken.",
+    "[8:01:56 pm] Connecting to 'https://www.google.co.in/pagead/1p-conversion/431797245/?random=1329290512&cv=11&fst=1773239513959&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6391v9104831821z89173883913za20gzb9173883913zd9173883913xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~115616986~115938466~115938469~116024733~117484252&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.onitsukatiger.com%2Fin%2Fen-in%2Fproduct%2Fmexico-66-sabot%2F1183c123.100.html&label=uxHJCL6zr_QBEP3n8s0B&capi=1&frm=0&tiba=Onitsuka%20Tiger%20MEXICO%2066%20SABOT%2...dvsgMHj9PfIODaH2n11rkaVjZ-XHw&random=2113910973&ipr=y&pscrd=IhMIyNW94IeYkwMVN61jBh1LXAfmMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOh5odHRwczovL3d3dy5vbml0c3VrYXRpZ2VyLmNvbS9CWENoRUk4S1hFelFZUTFiRExuNjNBbWZUTUFSSXRBSjFDTURkNThndlRnZnJiT01oUTZYQzlIc0xiNE1XdXBGM0JNa3JDT1dheUVSVS10ZlBveUZJcDBEZnB6DAgJYggIABAAGAAgAIIBCXABiAEB4gEBAQ' violates the following Content Security Policy directive: \"connect-src dpm.demdex.net amcglobal.sc.omtrdc.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com www.google-analytics.com www.googleadservices.com analytics.google.com www.googletagmanager.com *.search-admin-ui-qa.magento-datasolutions.com search-admin-ui-qa.magento-datasolutions.com *.search-admin-ui.magento-ds.com search-admin-ui.magento-ds.com *.telemetry-dev.adobe.io telemetry-dev.adobe.io *.telemetry.adobe.io telemetry.adobe.io p13n.adobe.io p13n-mr.adobe.io *.sentry.io *.sentry-cdn.com plp-widgets-ui-qa.magento-datasolutions.com plp-widgets-ui.magento.ds.com searchautocompleteqa.magento-datasolutions.com livesearch-autocomplete.magento-ds.com livesearch-metrics-qa.magento-datasolutions.com livesearch-metrics.magento-ds.com commerce-int.adobe.io commerce.adobe.io *.snplow.net commerce.adobedc.net *.newrelic.com *.nr-data.net vimeo.com api.magento.com *.adobe.io performance.typekit.net www.sandbox.paypal.com www.paypalobjects.com www.paypal.com pilot-payflowlink.paypal.com *.paypal.com google.com *.google.com *.braintreegateway.com *.braintree-api.com *.magento-datasolutions.com *.magento-ds.com *.ccavenue.com api.braintreegateway.com api.sandbox.braintreegateway.com client-analytics.braintreegateway.com client-analytics.sandbox.braintreegateway.com *.cardinalcommerce.com lumberjack.razorpay.com lumberjack-metrics.razorpay.com *.google-analytics.com *.facebook.net *.redditstatic.com *.reddit.com *.tiktok.com *.doubleclick.net *.run.app static-mc-india.onitsukatiger.com cdn.cookielaw.org c.go-mpulse.net o.clarity.ms https://684d0d47.akstat.io https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location 'self' 'unsafe-inline'\". The policy is report-only, so the violation has been logged but no further action has been taken.",
+    "[8:02:03 pm] Expected to start loader but did not find one in the dom",
+    "[8:02:03 pm] Expected to start loader but did not find one in the dom",
+    "[8:02:12 pm] Scraping product: https://www.onitsukatiger.com/in/en-in/product/mexico-66-sabot/1183c123.001.html",
+    "[8:02:21 pm] Fallback to JQueryUI Compat activated. Your store is missing a dependency for a jQueryUI widget. Identifying and addressing the dependency will drastically improve the performance of your site.",
+    "[8:02:22 pm] [Meta Pixel] - Duplicate Pixel ID: 421120948497451.",
+    "[8:02:22 pm] Connecting to 'https://www.facebook.com/tr/' violates the following Content Security Policy directive: \"connect-src dpm.demdex.net amcglobal.sc.omtrdc.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com www.google-analytics.com www.googleadservices.com analytics.google.com www.googletagmanager.com *.search-admin-ui-qa.magento-datasolutions.com search-admin-ui-qa.magento-datasolutions.com *.search-admin-ui.magento-ds.com search-admin-ui.magento-ds.com *.telemetry-dev.adobe.io telemetry-dev.adobe.io *.telemetry.adobe.io telemetry.adobe.io p13n.adobe.io p13n-mr.adobe.io *.sentry.io *.sentry-cdn.com plp-widgets-ui-qa.magento-datasolutions.com plp-widgets-ui.magento.ds.com searchautocompleteqa.magento-datasolutions.com livesearch-autocomplete.magento-ds.com livesearch-metrics-qa.magento-datasolutions.com livesearch-metrics.magento-ds.com commerce-int.adobe.io commerce.adobe.io *.snplow.net commerce.adobedc.net *.newrelic.com *.nr-data.net vimeo.com api.magento.com *.adobe.io performance.typekit.net www.sandbox.paypal.com www.paypalobjects.com www.paypal.com pilot-payflowlink.paypal.com *.paypal.com google.com *.google.com *.braintreegateway.com *.braintree-api.com *.magento-datasolutions.com *.magento-ds.com *.ccavenue.com api.braintreegateway.com api.sandbox.braintreegateway.com client-analytics.braintreegateway.com client-analytics.sandbox.braintreegateway.com *.cardinalcommerce.com lumberjack.razorpay.com lumberjack-metrics.razorpay.com *.google-analytics.com *.facebook.net *.redditstatic.com *.reddit.com *.tiktok.com *.doubleclick.net *.run.app static-mc-india.onitsukatiger.com cdn.cookielaw.org c.go-mpulse.net o.clarity.ms https://684d0d47.akstat.io https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location 'self' 'unsafe-inline'\". The policy is report-only, so the violation has been logged but no further action has been taken.",
+    "[8:02:24 pm] Connecting to 'https://www.google.co.in/pagead/1p-conversion/431797245/?random=1249717042&cv=11&fst=1773239542077&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6391v9104831821z89173883913za20gzb9173883913zd9173883913xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~115938466~115938469~116024733~117484252~117625641&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.onitsukatiger.com%2Fin%2Fen-in%2Fproduct%2Fmexico-66-sabot%2F1183c123.001.html&label=uxHJCL6zr_QBEP3n8s0B&capi=1&frm=0&tiba=Onitsuka%20Tiger%20MEXICO%2066%20SABOT%2...1JK3MiCBQccMFN0gG1rt4jvr3vkck&random=3693746923&ipr=y&pscrd=IhMI96Hx7YeYkwMVu6pjBh35sQz5MgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOh5odHRwczovL3d3dy5vbml0c3VrYXRpZ2VyLmNvbS9CWENoRUk4S1hFelFZUTFiRExuNjNBbWZUTUFSSXRBSjFDTURmaVZFQUxxdXN3emJOeEZsdk1GNDAyN00xRWYzNkI1SGxoMVF3cFZjVGs1b2VRY3dRbUlFQXN6DAgJYggIABAAGAAgAIIBCXABiAEB4gEBAQ' violates the following Content Security Policy directive: \"connect-src dpm.demdex.net amcglobal.sc.omtrdc.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com www.google-analytics.com www.googleadservices.com analytics.google.com www.googletagmanager.com *.search-admin-ui-qa.magento-datasolutions.com search-admin-ui-qa.magento-datasolutions.com *.search-admin-ui.magento-ds.com search-admin-ui.magento-ds.com *.telemetry-dev.adobe.io telemetry-dev.adobe.io *.telemetry.adobe.io telemetry.adobe.io p13n.adobe.io p13n-mr.adobe.io *.sentry.io *.sentry-cdn.com plp-widgets-ui-qa.magento-datasolutions.com plp-widgets-ui.magento.ds.com searchautocompleteqa.magento-datasolutions.com livesearch-autocomplete.magento-ds.com livesearch-metrics-qa.magento-datasolutions.com livesearch-metrics.magento-ds.com commerce-int.adobe.io commerce.adobe.io *.snplow.net commerce.adobedc.net *.newrelic.com *.nr-data.net vimeo.com api.magento.com *.adobe.io performance.typekit.net www.sandbox.paypal.com www.paypalobjects.com www.paypal.com pilot-payflowlink.paypal.com *.paypal.com google.com *.google.com *.braintreegateway.com *.braintree-api.com *.magento-datasolutions.com *.magento-ds.com *.ccavenue.com api.braintreegateway.com api.sandbox.braintreegateway.com client-analytics.braintreegateway.com client-analytics.sandbox.braintreegateway.com *.cardinalcommerce.com lumberjack.razorpay.com lumberjack-metrics.razorpay.com *.google-analytics.com *.facebook.net *.redditstatic.com *.reddit.com *.tiktok.com *.doubleclick.net *.run.app static-mc-india.onitsukatiger.com cdn.cookielaw.org c.go-mpulse.net o.clarity.ms https://684d0d47.akstat.io https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location 'self' 'unsafe-inline'\". The policy is report-only, so the violation has been logged but no further action has been taken.",
+    "[8:02:32 pm] Expected to start loader but did not find one in the dom",
+    "[8:02:32 pm] Expected to start loader but did not find one in the dom",
+    "[8:02:42 pm] Scrape completed successfully.",
+    "[8:02:44 pm] Connecting to 'https://www.google.co.in/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-3ZMGVH9Z70&cid=1699614039.1773239417&gtm=45je6391v9173431006za20gzb9173883913zd9173883913&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=103116026~103200004~115938466~115938468~116024733~117484252&z=2022561660' violates the following Content Security Policy directive: \"connect-src dpm.demdex.net amcglobal.sc.omtrdc.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com www.google-analytics.com www.googleadservices.com analytics.google.com www.googletagmanager.com *.search-admin-ui-qa.magento-datasolutions.com search-admin-ui-qa.magento-datasolutions.com *.search-admin-ui.magento-ds.com search-admin-ui.magento-ds.com *.telemetry-dev.adobe.io telemetry-dev.adobe.io *.telemetry.adobe.io telemetry.adobe.io p13n.adobe.io p13n-mr.adobe.io *.sentry.io *.sentry-cdn.com plp-widgets-ui-qa.magento-datasolutions.com plp-widgets-ui.magento.ds.com searchautocompleteqa.magento-datasolutions.com livesearch-autocomplete.magento-ds.com livesearch-metrics-qa.magento-datasolutions.com livesearch-metrics.magento-ds.com commerce-int.adobe.io commerce.adobe.io *.snplow.net commerce.adobedc.net *.newrelic.com *.nr-data.net vimeo.com api.magento.com *.adobe.io performance.typekit.net www.sandbox.paypal.com www.paypalobjects.com www.paypal.com pilot-payflowlink.paypal.com *.paypal.com google.com *.google.com *.braintreegateway.com *.braintree-api.com *.magento-datasolutions.com *.magento-ds.com *.ccavenue.com api.braintreegateway.com api.sandbox.braintreegateway.com client-analytics.braintreegateway.com client-analytics.sandbox.braintreegateway.com *.cardinalcommerce.com lumberjack.razorpay.com lumberjack-metrics.razorpay.com *.google-analytics.com *.facebook.net *.redditstatic.com *.reddit.com *.tiktok.com *.doubleclick.net *.run.app static-mc-india.onitsukatiger.com cdn.cookielaw.org c.go-mpulse.net o.clarity.ms https://684d0d47.akstat.io https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location 'self' 'unsafe-inline'\". The policy is report-only, so the violation has been logged but no further action has been taken."
+  ],
+  "createdAt": "2026-03-11T14:30:00.754Z",
+  "updatedAt": "2026-03-11T14:32:42.154Z",
+  "results": {
+    "products": [
+      {
+        "url": "https://www.onitsukatiger.com/in/en-in/product/mexico-66-sabot/1183c123.251.html",
+        "name": "MEXICO 66 SABOT",
+        "variants": [
+          {
+            "name": "Men US 4/Women US 5.5",
+            "available": true,
+            "price": ""
+          },
+          {
+            "name": "Men US 4.5/Women US 6",
+            "available": true,
+            "price": ""
+          },
+          {
+            "name": "Men US 5/Women US 6.5",
+            "available": true,
+            "price": ""
+          },
+          {
+            "name": "Men US 5.5/Women US 7",
+            "available": true,
+            "price": ""
+          },
+          {
+            "name": "Men US 6/Women US 7.5",
+            "available": true,
+            "price": ""
+          },
+          {
+            "name": "Men US 6.5/Women US 8",
+            "available": true,
+            "price": ""
+          },
+          {
+            "name": "Men US 7/Women US 8.5",
+            "available": true,
+            "price": ""
+          },
+          {
+            "name": "Men US 7.5/Women US 9",
+            "available": true,
+            "price": ""
+          },
+          {
+            "name": "Men US 8/Women US 9.5",
+            "available": true,
+            "price": ""
+          },
+          {
+            "name": "Men US 8.5/Women US 10",
+            "available": true,
+            "price": ""
+          },
+          {
+            "name": "Men US 9/Women US 10.5",
+            "available": true,
+            "price": ""
+          },
+          {
+            "name": "Men US 9.5/Women US 11",
+            "available": true,
+            "price": ""
+          },
+          {
+            "name": "Men US 10/Women US 11.5",
+            "available": true,
+            "price": ""
+          },
+          {
+            "name": "Men US 10.5/Women US 12",
+            "available": false,
+            "price": ""
+          },
+          {
+            "name": "Men US 11/Women US 12.5",
+            "available": true,
+            "price": ""
+          },
+          {
+            "name": "Men US 11.5/Women US 13",
+            "available": true,
+            "price": ""
+          },
+          {
+            "name": "Men US 12/Women US 13.5",
+            "available": true,
+            "price": ""
+          },
+          {
+            "name": "Men US 12.5/Women US 14",
+            "available": true,
+            "price": ""
+          },
+          {
+            "name": "Men US 13/Women US 14.5",
+            "available": true,
+            "price": ""
+          },
+          {
+            "name": "Men US 14/Women US 15.5",
+            "available": true,
+            "price": ""
+          }
+        ]
+      },
+      {
+        "url": "https://www.onitsukatiger.com/in/en-in/product/mexico-66-sabot/1183c123.104.html",
+        "name": "MEXICO 66 SABOT",
+        "variants": [
+          {
+            "name": "Men US 4/Women US 5.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 4.5/Women US 6",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 4.5/Women US 6",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 5/Women US 6.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 5.5/Women US 7",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 6.5/Women US 8",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 7.5/Women US 9",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 8.5/Women US 10",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 9.5/Women US 11",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 10.5/Women US 12",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 11.5/Women US 13",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 12/Women US 13.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 5.5/Women US 7",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 6/Women US 7.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 6.5/Women US 8",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 7/Women US 8.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 7.5/Women US 9",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 8/Women US 9.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 8.5/Women US 10",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 9/Women US 10.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 9.5/Women US 11",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 10/Women US 11.5",
+            "available": true,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 11/Women US 12.5",
+            "available": true,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 11.5/Women US 13",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 12.5/Women US 14",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 13/Women US 14.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 14/Women US 15.5",
+            "available": false,
+            "price": "₹13,500.00"
+          }
+        ]
+      },
+      {
+        "url": "https://www.onitsukatiger.com/in/en-in/product/mexico-66-sabot/1183c123.103.html",
+        "name": "MEXICO 66 SABOT",
+        "variants": [
+          {
+            "name": "Men US 4/Women US 5.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 4.5/Women US 6",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 4.5/Women US 6",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 5/Women US 6.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 5.5/Women US 7",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 6.5/Women US 8",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 7.5/Women US 9",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 8.5/Women US 10",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 9.5/Women US 11",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 10.5/Women US 12",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 11.5/Women US 13",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 12/Women US 13.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 5.5/Women US 7",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 6/Women US 7.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 6.5/Women US 8",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 7/Women US 8.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 7.5/Women US 9",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 8/Women US 9.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 8.5/Women US 10",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 9/Women US 10.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 9.5/Women US 11",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 10/Women US 11.5",
+            "available": true,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 10.5/Women US 12",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 11/Women US 12.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 11.5/Women US 13",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 12/Women US 13.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 12.5/Women US 14",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 13/Women US 14.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 14/Women US 15.5",
+            "available": false,
+            "price": "₹13,500.00"
+          }
+        ]
+      },
+      {
+        "url": "https://www.onitsukatiger.com/in/en-in/product/mexico-66-sabot/1183c123.100.html",
+        "name": "MEXICO 66 SABOT",
+        "variants": [
+          {
+            "name": "Men US 4/Women US 5.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 4.5/Women US 6",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 4.5/Women US 6",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 5/Women US 6.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 5.5/Women US 7",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 6.5/Women US 8",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 7.5/Women US 9",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 8.5/Women US 10",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 9.5/Women US 11",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 10.5/Women US 12",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 11.5/Women US 13",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 12/Women US 13.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 5.5/Women US 7",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 6/Women US 7.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 6.5/Women US 8",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 7/Women US 8.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 7.5/Women US 9",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 8/Women US 9.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 8.5/Women US 10",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 9/Women US 10.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 9.5/Women US 11",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 10/Women US 11.5",
+            "available": true,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 11/Women US 12.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 11.5/Women US 13",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 12.5/Women US 14",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 13/Women US 14.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 14/Women US 15.5",
+            "available": false,
+            "price": "₹13,500.00"
+          }
+        ]
+      },
+      {
+        "url": "https://www.onitsukatiger.com/in/en-in/product/mexico-66-sabot/1183c123.001.html",
+        "name": "MEXICO 66 SABOT",
+        "variants": [
+          {
+            "name": "Men US 4/Women US 5.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 4.5/Women US 6",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 4.5/Women US 6",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 5/Women US 6.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 5.5/Women US 7",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 6.5/Women US 8",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 7.5/Women US 9",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 8.5/Women US 10",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 9.5/Women US 11",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 10.5/Women US 12",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 11.5/Women US 13",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 12/Women US 13.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 5.5/Women US 7",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 6/Women US 7.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 6.5/Women US 8",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 7/Women US 8.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 7.5/Women US 9",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 8/Women US 9.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 8.5/Women US 10",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 9/Women US 10.5",
+            "available": true,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 9.5/Women US 11",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 10/Women US 11.5",
+            "available": true,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 11/Women US 12.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 11.5/Women US 13",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 12.5/Women US 14",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 13/Women US 14.5",
+            "available": false,
+            "price": "₹13,500.00"
+          },
+          {
+            "name": "Men US 14/Women US 15.5",
+            "available": false,
+            "price": "₹13,500.00"
+          }
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "performanceScore": 88,
+    "lcp": 8338,
+    "cls": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "919f784a-9e1f-4b7e-9fba-48b48bbb6789",
+  "name": "Mexico Sabot",
+  "type": "collection-scrape",
+  "url": "https://www.onitsukatiger.com/in/en-in/men/shoes/mexico-sabot.html",
+  "brandId": "onitsuka-tiger",
+  "formData": {
+    "name": "Abhishek",
+    "phone": "9898989898"
+  },
+  "schedule": {
+    "type": "hourly",
+    "active": true,
+    "lastRun": "2026-03-12T13:30:00.093Z"
+  },
+  "createdAt": "2026-03-06T11:05:26.401Z",
+  "updatedAt": "2026-03-06T11:05:26.401Z"
+}

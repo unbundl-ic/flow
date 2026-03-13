@@ -1,0 +1,169 @@
+{
+  "_id": "1c2218d7-32af-4b57-8016-e04b5f6d71d8",
+  "flowId": "a504a8f0-4a0b-41e6-86de-2015811788cb",
+  "brandId": "sample-brand",
+  "type": "collection-scrape",
+  "status": "completed",
+  "logs": [
+    "Started collection-scrape for sample-brand",
+    "[9:26:21 pm] Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+    "[9:26:22 pm] Failed to load resource: the server responded with a status of 404 ()",
+    "[9:26:22 pm] Failed to load resource: the server responded with a status of 404 ()",
+    "[9:26:22 pm] Failed to load resource: the server responded with a status of 404 ()",
+    "[9:26:22 pm] Page viewed {id: sh-dd9d1888-A653-4DF0-9A14-CEADA7A6FB55, name: page_viewed, data: Object, type: standard, timestamp: 2026-03-11T15:56:22.148Z}",
+    "[9:26:22 pm] Failed to load resource: the server responded with a status of 404 ()",
+    "[9:26:22 pm] fetching data to inject",
+    "[9:26:22 pm] object {parent: .categories-block-wrap>.category-block:nth-child(1) .category-block-cards-wrapper, slidesToShow: 1, slidesToScroll: 1, autoplay: false, arrows: true}",
+    "[9:26:23 pm] Wednesday",
+    "[9:26:23 pm] Analytics enabled",
+    "[9:26:23 pm] Replay is disabled because neither `replaysSessionSampleRate` nor `replaysOnErrorSampleRate` are set.",
+    "[9:26:23 pm] Failed to load resource: the server responded with a status of 400 ()",
+    "[9:26:23 pm] Found 3 products. Starting variant scrape...",
+    "[9:26:23 pm] Scraping product: https://saralhome.com/products/all-over-cotton-striped-queen-size-quilt-90x100",
+    "[9:26:23 pm] Loox script loaded - please reinstall Loox to enable photo/video reviews - https://loox.io/app/reinstall",
+    "[9:26:24 pm] Error brand data to populate ytapp:  TypeError: Failed to fetch\n    at https://saralhome.com/cdn/wpm/bdf8d3400wef50681bp68ad6cf7m44c53f1am.js:1:68100\n    at window2.fetch (https://saralhome.com/cdn/shopifycloud/storefront/assets/shop_events_listener-3da45d37.js:1:7564)\n    at fetchDataToInject (https://cdn.shopify.com/extensions/019c90c9-39b4-756a-b8e1-ea9f57edf6b5/yourtoken-reward-app-993/assets/index.js:191:28)\n    at main (https://cdn.shopify.com/extensions/019c90c9-39b4-756a-b8e1-ea9f57edf6b5/yourtoken-reward-app-993/assets/index.js:231:3)\n    at https://cdn.shopify.com/extensions/019c90c9-39b4-756a-b8e1-ea9f57edf6b5/yourtoken-reward-app-993/assets/index.js:243:1",
+    "[9:26:24 pm] Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+    "[9:26:24 pm] productPercentage {}",
+    "[9:26:24 pm] Page viewed {id: sh-dd9d1514-A38A-47E1-F634-330F6F6E6628, name: page_viewed, data: Object, type: standard, timestamp: 2026-03-11T15:56:24.451Z}",
+    "[9:26:25 pm] fetching data to inject",
+    "[9:26:25 pm] object {parent: .categories-block-wrap>.category-block:nth-child(1) .category-block-cards-wrapper, slidesToShow: 1, slidesToScroll: 1, autoplay: false, arrows: true}",
+    "[9:26:25 pm] Variant ID:  43332602101994",
+    "[9:26:25 pm] Failed to load resource: the server responded with a status of 400 ()",
+    "[9:26:26 pm] Loox script loaded - please reinstall Loox to enable photo/video reviews - https://loox.io/app/reinstall",
+    "[9:26:26 pm] %c Video shopping powered by Whatmore! background: #D53F8C; color: white; font-size: 19px; padding: 5px; font-weight: semibold; \n\nFind us here -> https://www.whatmore.ai/shoppable-videos/",
+    "[9:26:30 pm] Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID",
+    "[9:26:31 pm] [.WebGL-0x5a2c079cdb00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)",
+    "[9:26:39 pm] working",
+    "[9:26:39 pm] script loaded",
+    "[9:26:41 pm] working",
+    "[9:26:41 pm] Failed to load resource: the server responded with a status of 422 ()",
+    "[9:26:43 pm] working",
+    "[9:26:43 pm] Failed to load resource: the server responded with a status of 422 ()",
+    "[9:26:45 pm] working",
+    "[9:26:45 pm] Failed to load resource: the server responded with a status of 422 ()",
+    "[9:26:47 pm] Scraping product: https://saralhome.com/products/chawla-striped-queen-size-quilt-90x100",
+    "[9:26:48 pm] Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+    "[9:26:48 pm] script loaded",
+    "[9:26:48 pm] fetching data to inject",
+    "[9:26:48 pm] object {parent: .categories-block-wrap>.category-block:nth-child(1) .category-block-cards-wrapper, slidesToShow: 1, slidesToScroll: 1, autoplay: false, arrows: true}",
+    "[9:26:48 pm] Variant ID:  43332524769514",
+    "[9:26:48 pm] Failed to load resource: the server responded with a status of 400 ()",
+    "[9:26:48 pm] Page viewed {id: sh-dd9d71e9-C9A9-4898-F279-87201C8D49C0, name: page_viewed, data: Object, type: standard, timestamp: 2026-03-11T15:56:48.434Z}",
+    "[9:26:49 pm] Loox script loaded - please reinstall Loox to enable photo/video reviews - https://loox.io/app/reinstall",
+    "[9:26:49 pm] %c Video shopping powered by Whatmore! background: #D53F8C; color: white; font-size: 19px; padding: 5px; font-weight: semibold; \n\nFind us here -> https://www.whatmore.ai/shoppable-videos/",
+    "[9:26:54 pm] Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID",
+    "[9:26:57 pm] working",
+    "[9:26:57 pm] script loaded",
+    "[9:26:59 pm] working",
+    "[9:26:59 pm] Failed to load resource: the server responded with a status of 422 ()",
+    "[9:27:01 pm] working",
+    "[9:27:01 pm] Failed to load resource: the server responded with a status of 422 ()",
+    "[9:27:03 pm] working",
+    "[9:27:03 pm] Failed to load resource: the server responded with a status of 422 ()",
+    "[9:27:05 pm] Scraping product: https://saralhome.com/products/joy-handmade-striped-queen-size-quilt-90x100",
+    "[9:27:06 pm] Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+    "[9:27:06 pm] productPercentage {}",
+    "[9:27:06 pm] object {parent: .categories-block-wrap>.category-block:nth-child(1) .category-block-cards-wrapper, slidesToShow: 1, slidesToScroll: 1, autoplay: false, arrows: true}",
+    "[9:27:06 pm] Variant ID:  43332304371946",
+    "[9:27:06 pm] fetching data to inject",
+    "[9:27:06 pm] Page viewed {id: sh-dd9db69c-5B68-4830-D650-E7B177B4582F, name: page_viewed, data: Object, type: standard, timestamp: 2026-03-11T15:57:06.125Z}",
+    "[9:27:06 pm] Failed to load resource: the server responded with a status of 400 ()",
+    "[9:27:06 pm] Loox script loaded - please reinstall Loox to enable photo/video reviews - https://loox.io/app/reinstall",
+    "[9:27:06 pm] %c Video shopping powered by Whatmore! background: #D53F8C; color: white; font-size: 19px; padding: 5px; font-weight: semibold; \n\nFind us here -> https://www.whatmore.ai/shoppable-videos/",
+    "[9:27:09 pm] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold",
+    "[9:27:10 pm] Failed to load resource: the server responded with a status of 404 ()",
+    "[9:27:10 pm] Failed to load resource: the server responded with a status of 404 ()",
+    "[9:27:25 pm] working",
+    "[9:27:25 pm] script loaded",
+    "[9:27:27 pm] working",
+    "[9:27:27 pm] Failed to load resource: the server responded with a status of 422 ()",
+    "[9:27:29 pm] working",
+    "[9:27:29 pm] Failed to load resource: the server responded with a status of 422 ()",
+    "[9:27:31 pm] working",
+    "[9:27:31 pm] Failed to load resource: the server responded with a status of 422 ()",
+    "[9:27:34 pm] working",
+    "[9:27:34 pm] Failed to load resource: the server responded with a status of 422 ()",
+    "[9:27:36 pm] Scrape completed successfully."
+  ],
+  "createdAt": "2026-03-11T15:56:18.048Z",
+  "updatedAt": "2026-03-11T15:57:36.187Z",
+  "results": {
+    "products": [
+      {
+        "url": "https://saralhome.com/products/all-over-cotton-striped-queen-size-quilt-90x100",
+        "name": "All Over Cotton Striped Queen Size Quilt (90X100)",
+        "variants": [
+          {
+            "name": "",
+            "available": true
+          },
+          {
+            "name": "",
+            "available": true
+          },
+          {
+            "name": "",
+            "available": true
+          },
+          {
+            "name": "",
+            "available": true
+          }
+        ]
+      },
+      {
+        "url": "https://saralhome.com/products/chawla-striped-queen-size-quilt-90x100",
+        "name": "Chawla Striped Queen Size Quilt (90X100)",
+        "variants": [
+          {
+            "name": "",
+            "available": true
+          },
+          {
+            "name": "",
+            "available": true
+          },
+          {
+            "name": "",
+            "available": true
+          },
+          {
+            "name": "",
+            "available": true
+          }
+        ]
+      },
+      {
+        "url": "https://saralhome.com/products/joy-handmade-striped-queen-size-quilt-90x100",
+        "name": "Joy Handmade Striped Queen Size Quilt (90X100)",
+        "variants": [
+          {
+            "name": "",
+            "available": true
+          },
+          {
+            "name": "",
+            "available": true
+          },
+          {
+            "name": "",
+            "available": true
+          },
+          {
+            "name": "",
+            "available": true
+          },
+          {
+            "name": "",
+            "available": true
+          }
+        ]
+      }
+    ]
+  },
+  "metrics": {
+    "performanceScore": 79,
+    "lcp": 670,
+    "cls": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "b0557a3f-ca00-45af-a074-a19ab303fa8d",
+  "brandId": "saral",
+  "type": "collection-scrape",
+  "name": "Bedding Collection",
+  "url": "https://saralhome.com/collections/bedding",
+  "formData": {
+    "name": "Abhishek",
+    "phone": "9898989898"
+  },
+  "schedule": {
+    "type": "manual",
+    "active": true
+  },
+  "createdAt": "2026-03-12T05:38:34.106Z",
+  "updatedAt": "2026-03-12T05:38:37.617Z",
+  "isShopify": true
+}
