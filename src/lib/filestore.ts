@@ -62,6 +62,8 @@ export interface JobData {
     cls?: number;
     performanceScore?: number;
   };
+  /** URL/formData from the run request (worker uses these instead of flow defaults when set). */
+  requestPayload?: { url?: string; formData?: unknown };
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   results?: any;
   createdAt: string;
@@ -101,6 +103,18 @@ export const FileStore = {
   },
 
   async deleteBrand(id: string) {
+    if (!(await this.getBrand(id))) return false;
+    const flows = await this.getFlows(id);
+    for (const f of flows) {
+      const jobs = await this.listJobs(f.id);
+      for (const j of jobs) {
+        await this.deleteJob(j._id);
+      }
+      await this.deleteFlow(f.id);
+    }
+    for (const j of await this.listJobs()) {
+      if (j.brandId === id) await this.deleteJob(j._id);
+    }
     try {
       await fs.unlink(path.join(BRANDS_DIR, `${id}.json`));
       return true;
@@ -165,6 +179,15 @@ export const FileStore = {
       return JSON.parse(data);
     } catch {
       return null;
+    }
+  },
+
+  async deleteJob(jobId: string) {
+    try {
+      await fs.unlink(path.join(JOBS_DIR, `${jobId}.json`));
+      return true;
+    } catch {
+      return false;
     }
   },
 

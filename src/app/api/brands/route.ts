@@ -1,11 +1,6 @@
-import { v4 as uuidv4 } from 'uuid';
 import { NextRequest, NextResponse } from 'next/server';
-import { FileStore, BrandData } from '@/lib/filestore';
-
-const SEED_BRANDS: Omit<BrandData, 'createdAt' | 'updatedAt'>[] = [
-  { id: 'clove-dental', name: 'Clove Dental', description: 'Lead generation and form automation', color: 'indigo' },
-  { id: 'onitsuka-tiger', name: 'Onitsuka Tiger', description: 'Product and inventory monitoring', color: 'emerald' },
-];
+import { BrandData } from '@/lib/filestore';
+import { getStore } from '@/lib/store';
 
 function slugFromName(name: string): string {
   const base = name
@@ -18,22 +13,13 @@ function slugFromName(name: string): string {
 }
 
 export async function GET() {
-  let brands = await FileStore.getBrands();
-  if (brands.length === 0) {
-    const now = new Date().toISOString();
-    for (const seed of SEED_BRANDS) {
-      await FileStore.saveBrand({
-        ...seed,
-        createdAt: now,
-        updatedAt: now,
-      });
-    }
-    brands = await FileStore.getBrands();
-  }
+  const store = getStore();
+  const brands = await store.getBrands();
   return NextResponse.json(brands);
 }
 
 export async function POST(req: NextRequest) {
+  const store = getStore();
   try {
     const body = await req.json();
     const rawName = body.name;
@@ -47,7 +33,7 @@ export async function POST(req: NextRequest) {
       id = slugFromName(name);
       let candidate = id;
       let suffix = 0;
-      while (await FileStore.getBrand(candidate)) {
+      while (await store.getBrand(candidate)) {
         suffix += 1;
         candidate = `${id}-${suffix}`;
       }
@@ -64,7 +50,7 @@ export async function POST(req: NextRequest) {
       updatedAt: now,
     };
 
-    await FileStore.saveBrand(newBrand);
+    await store.saveBrand(newBrand);
     return NextResponse.json(newBrand);
   } catch (err: unknown) {
     const msg = err instanceof Error ? err.message : 'Unknown error';

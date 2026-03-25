@@ -1,0 +1,25 @@
+{
+  "_id": "fc400204-9737-4555-a945-a2fd109a4ea9",
+  "flowId": "919f784a-9e1f-4b7e-9fba-48b48bbb6789",
+  "brandId": "onitsuka-tiger",
+  "type": "collection-scrape",
+  "status": "completed",
+  "logs": [
+    "Started collection-scrape for onitsuka-tiger",
+    "[6:00:12 pm] Failed to load resource: the server responded with a status of 404 ()",
+    "[6:00:12 pm] Failed to load resource: net::ERR_FAILED",
+    "[6:00:13 pm] Fallback to JQueryUI Compat activated. Your store is missing a dependency for a jQueryUI widget. Identifying and addressing the dependency will drastically improve the performance of your site.",
+    "[6:00:37 pm] Found 0 products. Starting variant scrape...",
+    "[6:00:37 pm] Scrape completed successfully."
+  ],
+  "createdAt": "2026-03-20T12:30:00.054Z",
+  "updatedAt": "2026-03-20T12:30:37.902Z",
+  "results": {
+    "products": []
+  },
+  "metrics": {
+    "performanceScore": 79,
+    "lcp": 12692,
+    "cls": 0
+  }
+}

@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, use } from 'react';
+import { useRouter } from 'next/navigation';
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -11,6 +12,7 @@ import { FlowData, BrandData } from '@/lib/filestore';
 
 export default function BrandPage({ params }: { params: Promise<{ brandId: string }> }) {
   const { brandId } = use(params);
+  const router = useRouter();
   const [flows, setFlows] = useState<FlowData[]>([]);
   const [brand, setBrand] = useState<BrandData | null | undefined>(undefined);
 
@@ -55,6 +57,26 @@ export default function BrandPage({ params }: { params: Promise<{ brandId: strin
     }
   };
 
+  const deleteBrand = async () => {
+    const name = brand?.name ?? brandId;
+    if (
+      !window.confirm(
+        `Delete brand "${name}" and all of its flows and jobs? This cannot be undone.`
+      )
+    ) {
+      return;
+    }
+    const res = await fetch(`/api/brands/${encodeURIComponent(brandId)}`, { method: 'DELETE' });
+    if (res.ok) {
+      toast.success('Brand deleted');
+      router.push('/');
+      router.refresh();
+      return;
+    }
+    const err = await res.json().catch(() => ({}));
+    toast.error(typeof err?.error === 'string' ? err.error : 'Could not delete brand');
+  };
+
   return (
     <div className="min-h-screen bg-[#f8f9fc] p-8">
       <Toaster position="top-right" richColors />
@@ -88,7 +110,15 @@ export default function BrandPage({ params }: { params: Promise<{ brandId: strin
             <h1 className="text-4xl font-black text-slate-900 tracking-tight">{brand.name}</h1>
             <p className="text-slate-500 font-medium">{brand.description || 'Manage and monitor automation for this brand.'}</p>
           </div>
-          <div className="flex gap-3">
+          <div className="flex flex-wrap gap-3 justify-end">
+            <Button
+              type="button"
+              variant="outline"
+              className="h-12 px-6 rounded-xl font-bold border-rose-200 text-rose-600 hover:bg-rose-50 transition-all"
+              onClick={() => void deleteBrand()}
+            >
+              <Trash2 className="mr-2 h-4 w-4" /> DELETE BRAND
+            </Button>
             <Link href="/">
               <Button variant="outline" className="h-12 px-6 rounded-xl font-bold border-slate-200 text-slate-600 hover:bg-slate-50 transition-all">
                 <ArrowLeft className="mr-2 h-4 w-4" /> BACK

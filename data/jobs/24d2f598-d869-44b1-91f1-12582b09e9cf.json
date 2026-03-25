@@ -1,0 +1,25 @@
+{
+  "_id": "24d2f598-d869-44b1-91f1-12582b09e9cf",
+  "flowId": "b0557a3f-ca00-45af-a074-a19ab303fa8d",
+  "brandId": "saral",
+  "type": "collection-scrape",
+  "status": "running",
+  "logs": [
+    "Started collection-scrape for saral",
+    "[1:00:24 pm] Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+    "[1:00:25 pm] Failed to load resource: net::ERR_FAILED",
+    "[1:00:26 pm] Failed to load resource: the server responded with a status of 404 ()",
+    "[1:00:26 pm] Failed to load resource: the server responded with a status of 404 ()",
+    "[1:00:26 pm] Failed to load resource: the server responded with a status of 404 ()",
+    "[1:00:27 pm] Failed to load resource: net::ERR_FAILED",
+    "[1:00:27 pm] Failed to load resource: net::ERR_FAILED",
+    "[1:00:27 pm] Page viewed {id: sh-0a271e55-034A-4B9C-745D-6CE5F44D53D2, name: page_viewed, data: Object, type: standard, timestamp: 2026-03-20T07:30:26.516Z}",
+    "[1:00:28 pm] object {parent: .categories-block-wrap>.category-block:nth-child(1) .category-block-cards-wrapper, slidesToShow: 1, slidesToScroll: 1, autoplay: false, arrows: true}",
+    "[1:00:28 pm] Loox script loaded - please reinstall Loox to enable photo/video reviews - https://loox.io/app/reinstall",
+    "[1:00:28 pm] Failed to load resource: the server responded with a status of 400 ()",
+    "[1:00:29 pm] Friday"
+  ],
+  "createdAt": "2026-03-20T07:30:23.337Z",
+  "updatedAt": "2026-03-20T07:30:23.337Z"
+}7Z"
+}

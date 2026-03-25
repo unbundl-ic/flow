@@ -1,6 +1,6 @@
 import { Page, BrowserContext } from 'playwright';
 import { WebSocketServer, WebSocket } from 'ws';
-import { FileStore } from '../filestore';
+import { getStore } from '@/lib/store';
 
 // Singleton for session management to survive HMR reloads
 const ENGINE_TOKEN = Symbol.for('automation.engine');
@@ -37,7 +37,7 @@ export class AutomationEngine {
     // Set up real-time telemetry streaming
     page.on('console', msg => {
       this.broadcast(jobId, { type: 'log', message: msg.text() });
-      FileStore.addLog(jobId, msg.text()).catch(() => {});
+      getStore().addLog(jobId, msg.text()).catch(() => {});
     });
 
     // Start video/frame stream if someone is watching
@@ -139,8 +139,9 @@ export class AutomationEngine {
       if (now - job.startTime > 1800000) {
         console.warn(`[Engine] Cleaning up zombie job ${jobId}`);
         await this.stop(jobId);
-        await FileStore.updateJob(jobId, { status: 'failed' });
-        await FileStore.addLog(jobId, 'Job timed out (Zombie cleanup).');
+        const store = getStore();
+        await store.updateJob(jobId, { status: 'failed' });
+        await store.addLog(jobId, 'Job timed out (Zombie cleanup).');
       }
     }
   }

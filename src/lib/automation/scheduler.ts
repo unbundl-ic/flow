@@ -1,5 +1,7 @@
 import cron, { ScheduledTask } from 'node-cron';
-import { FileStore } from '../filestore';
+import type { FlowData } from '@/lib/filestore';
+import { getStore } from '@/lib/store';
+import { getCronExpression } from '@/lib/automation/cron-expression';
 
 const SCHEDULER_TOKEN = Symbol.for('automation.scheduler');
 
@@ -17,13 +19,23 @@ export class SchedulerService {
 
   constructor() {
     console.log('[Scheduler] Initializing global scheduler service...');
-    this.refresh();
+    if (process.env.DISABLE_IN_PROCESS_SCHEDULER === 'true') {
+      console.log('[Scheduler] In-process cron disabled (serverless / external cron mode)');
+      return;
+    }
+    void this.refresh();
   }
 
   async refresh() {
     try {
-      console.log('[Scheduler] Syncing schedules from FileStore...');
-      const flows = await FileStore.getFlows();
+      if (process.env.DISABLE_IN_PROCESS_SCHEDULER === 'true') {
+        this.tasks.forEach((task) => task.stop());
+        this.tasks.clear();
+        return;
+      }
+      const store = getStore();
+      console.log('[Scheduler] Syncing schedules from store...');
+      const flows = await store.getFlows();
 
       // Stop all existing tasks
       this.tasks.forEach(task => task.stop());
@@ -39,13 +51,13 @@ export class SchedulerService {
     }
   }
 
-  scheduleFlow(flow: any) {
+  scheduleFlow(flow: FlowData) {
     if (!flow?.schedule || !flow.id) return;
     if (this.tasks.has(flow.id)) {
       this.tasks.get(flow.id)?.stop();
     }
 
-    const cronExpression = this.getCronExpression(flow.schedule);
+    const cronExpression = getCronExpression(flow.schedule);
 
     try {
       console.log(`[Scheduler] Scheduling flow ${flow.name} (${flow.id}) with: ${cronExpression}`);
@@ -74,7 +86,8 @@ export class SchedulerService {
         }
 
         // Update last run
-        await FileStore.saveFlow({
+        const storeInner = getStore();
+        await storeInner.saveFlow({
             ...flow,
             schedule: {
                 ...flow.schedule,
@@ -92,31 +105,6 @@ export class SchedulerService {
     }
   }
 
-  private getCronExpression(schedule: any): string {
-    if (!schedule || typeof schedule !== 'object') return '0 0 * * *';
-    const time = schedule.time || '09:00';
-    const parts = String(time).trim().split(':');
-    const hour = parts[0] != null && /^\d{1,2}$/.test(parts[0]) ? parts[0] : '9';
-    const minute = parts[1] != null && /^\d{1,2}$/.test(parts[1]) ? parts[1] : '0';
-
-    switch (schedule.type) {
-      case 'hourly':
-        return '0 * * * *';
-      case 'daily':
-        return `${minute} ${hour} * * *`;
-      case 'weekly': {
-        const dayOfWeek = schedule.dayOfWeek != null ? String(schedule.dayOfWeek) : '1';
-        return `${minute} ${hour} * * ${/^[0-6]$/.test(dayOfWeek) ? dayOfWeek : '1'}`;
-      }
-      case 'monthly': {
-        const d = schedule.dayOfMonth != null ? parseInt(String(schedule.dayOfMonth), 10) : 1;
-        const dayOfMonth = (d >= 1 && d <= 31) ? String(d) : '1';
-        return `${minute} ${hour} ${dayOfMonth} * *`;
-      }
-      default:
-        return '0 0 * * *';
-    }
-  }
 }
 
 export const scheduler = SchedulerService.getInstance();

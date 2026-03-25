@@ -1,10 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { FileStore, type FlowData } from '@/lib/filestore';
+import { type FlowData } from '@/lib/filestore';
+import { getStore } from '@/lib/store';
 import { v4 as uuidv4 } from 'uuid';
 import { SchedulerService } from '@/lib/automation/scheduler';
 
 export async function GET() {
-  const flows = await FileStore.getFlows();
+  const flows = await getStore().getFlows();
   return NextResponse.json(flows);
 }
 
@@ -30,7 +31,7 @@ export async function POST(req: NextRequest) {
     newFlow.createdAt = now;
     newFlow.updatedAt = now;
 
-    await FileStore.saveFlow(newFlow);
+    await getStore().saveFlow(newFlow);
     try {
       const scheduler = SchedulerService.getInstance();
       await scheduler.refresh();

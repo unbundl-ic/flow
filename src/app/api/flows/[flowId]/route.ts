@@ -1,10 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { FileStore } from '@/lib/filestore';
+import { getStore } from '@/lib/store';
 import { SchedulerService } from '@/lib/automation/scheduler';
 
 export async function GET(req: NextRequest, { params }: { params: Promise<{ flowId: string }> }) {
   const { flowId } = await params;
-  const flow = await FileStore.getFlow(flowId);
+  const flow = await getStore().getFlow(flowId);
   if (!flow) return NextResponse.json({ error: 'Flow not found' }, { status: 404 });
   return NextResponse.json(flow);
 }
@@ -12,7 +12,8 @@ export async function GET(req: NextRequest, { params }: { params: Promise<{ flow
 export async function PUT(req: NextRequest, { params }: { params: Promise<{ flowId: string }> }) {
   const { flowId } = await params;
   const body = await req.json();
-  const flow = await FileStore.getFlow(flowId);
+  const store = getStore();
+  const flow = await store.getFlow(flowId);
   if (!flow) return NextResponse.json({ error: 'Flow not found' }, { status: 404 });
 
   const updatedFlow = {
@@ -21,7 +22,7 @@ export async function PUT(req: NextRequest, { params }: { params: Promise<{ flow
     updatedAt: new Date().toISOString()
   };
 
-  await FileStore.saveFlow(updatedFlow);
+  await store.saveFlow(updatedFlow);
   try {
     const scheduler = SchedulerService.getInstance();
     if (typeof scheduler.refresh === 'function') await scheduler.refresh();
@@ -33,7 +34,7 @@ export async function PUT(req: NextRequest, { params }: { params: Promise<{ flow
 
 export async function DELETE(req: NextRequest, { params }: { params: Promise<{ flowId: string }> }) {
   const { flowId } = await params;
-  const success = await FileStore.deleteFlow(flowId);
+  const success = await getStore().deleteFlow(flowId);
   if (success) {
     try {
       const scheduler = SchedulerService.getInstance();

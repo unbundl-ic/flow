@@ -11,7 +11,7 @@
   "schedule": {
     "type": "hourly",
     "active": true,
-    "lastRun": "2026-03-12T13:30:00.093Z"
+    "lastRun": "2026-03-25T06:30:00.329Z"
   },
   "createdAt": "2026-03-06T11:05:26.401Z",
   "updatedAt": "2026-03-06T11:05:26.401Z"

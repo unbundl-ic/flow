@@ -174,6 +174,59 @@ export class ShopifyEngine {
     return result.sort((a, b) => a.y - b.y);
   }
 
+  /** Pair INPUT with LABEL via for/id; use label representation to avoid duplicate swatch elements. */
+  static async normalizeInputLabels(elementsInfo: ElementInfo[]): Promise<ElementInfo[]> {
+    const swatchElements: ElementInfo[] = [];
+    const usedInputs = new Set<string>();
+
+    for (const el of elementsInfo) {
+      if (el.tag === "INPUT") {
+        const id = el.id;
+        if (!id) continue;
+
+        let matchedLabel: ElementInfo | null = null;
+        for (const candidate of elementsInfo) {
+          if (candidate.tag !== "LABEL") continue;
+          const forAttr = await candidate.locator.getAttribute("for");
+          if (forAttr === id) {
+            matchedLabel = candidate;
+            break;
+          }
+        }
+
+        if (matchedLabel) {
+          swatchElements.push(matchedLabel);
+          usedInputs.add(id);
+          continue;
+        }
+      }
+
+      if (el.tag === "LABEL") {
+        const forAttr = await el.locator.getAttribute("for");
+        if (forAttr && usedInputs.has(forAttr)) continue;
+      }
+
+      swatchElements.push(el);
+    }
+
+    return swatchElements.sort((a, b) => a.y - b.y);
+  }
+
+  static hasHorizontalNeighbor(cluster: ElementInfo[]): boolean {
+    const yThreshold = 25;
+    const xThreshold = 20;
+    for (let i = 0; i < cluster.length; i++) {
+      for (let j = i + 1; j < cluster.length; j++) {
+        const a = cluster[i];
+        const b = cluster[j];
+        const sameRow = Math.abs(a.y - b.y) < yThreshold;
+        const differentColumn = Math.abs(a.x - b.x) > xThreshold;
+        if (sameRow && differentColumn) return true;
+      }
+    }
+    return false;
+  }
+
   static clusterElements(elements: ElementInfo[]): ElementInfo[][] {
     if (elements.length === 0) return [];
     const clusters: ElementInfo[][] = [];
@@ -218,7 +271,7 @@ export class ShopifyEngine {
         return !cluster.some(other => other !== el && other.x >= el.x && other.y >= el.y && (other.x + other.width <= el.x + el.width) && (other.y + other.height <= el.y + el.height));
       });
 
-      if (options.length > 1) {
+      if (options.length > 1 && this.hasHorizontalNeighbor(options)) {
         groups.push({
           groupName: "detected-group",
           options: options.map(el => ({ elementHandle: el.locator, text: el.text }))

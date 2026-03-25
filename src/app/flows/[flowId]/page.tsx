@@ -38,6 +38,8 @@ export default function FlowEditPage({ params }: { params: Promise<{ flowId: str
   const [wsConnected, setWsConnected] = useState(false);
   const [wsError, setWsError] = useState(false);
   const wsRef = useRef<WebSocket | null>(null);
+  const streamJobIdRef = useRef<string | null>(null);
+  const reconnectTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const imageRef = useRef<HTMLImageElement>(null);
   const [inputText, setInputText] = useState('');
 
@@ -73,6 +75,17 @@ export default function FlowEditPage({ params }: { params: Promise<{ flowId: str
       const flowJobs = jobsData.filter((j: JobData) => j.flowId === flowId);
       const hasRunning = !!flowJobs.find((j: JobData) => j.status === 'running');
 
+      if (hasRunning) {
+        const runningJob = flowJobs
+          .filter((j: JobData) => j.status === 'running')
+          .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime())[0];
+        if (runningJob && !streamJobIdRef.current) {
+          streamJobIdRef.current = runningJob._id;
+        }
+      } else {
+        streamJobIdRef.current = null;
+      }
+
       setHistory(flowJobs);
       setRunning(hasRunning);
 
@@ -107,36 +120,105 @@ export default function FlowEditPage({ params }: { params: Promise<{ flowId: str
 
   useEffect(() => {
     if (!running) {
+      streamJobIdRef.current = null;
+      if (reconnectTimeoutRef.current) {
+        clearTimeout(reconnectTimeoutRef.current);
+        reconnectTimeoutRef.current = null;
+      }
       if (wsRef.current) wsRef.current.close();
       setWsConnected(false);
       return;
     }
-    const connectWs = () => {
-      const host = window.location.hostname || 'localhost';
-      const ws = new WebSocket(`ws://${host}:3002`);
-      wsRef.current = ws;
-      ws.onopen = () => {
+
+    const livePreview = process.env.NEXT_PUBLIC_ENABLE_LIVE_PREVIEW === 'true';
+    if (!livePreview) {
+      setWsConnected(false);
+      return;
+    }
+
+    const isLocalhost =
+      typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1');
+
+    if (isLocalhost) {
+      const connectWs = () => {
+        const host = window.location.hostname || 'localhost';
+        const ws = new WebSocket(`ws://${host}:3002`);
+        wsRef.current = ws;
+        ws.onopen = () => {
+          setWsConnected(true);
+          setWsError(false);
+          const jobId = streamJobIdRef.current;
+          if (jobId) ws.send(JSON.stringify({ type: 'init', jobId }));
+        };
+        ws.onmessage = async (event) => {
+          if (event.data instanceof Blob) {
+            const url = URL.createObjectURL(event.data);
+            if (imageRef.current) {
+              const oldUrl = imageRef.current.src;
+              imageRef.current.src = url;
+              if (oldUrl.startsWith('blob:')) setTimeout(() => URL.revokeObjectURL(oldUrl), 100);
+            }
+          }
+        };
+        ws.onclose = () => {
+          setWsConnected(false);
+          if (streamJobIdRef.current) {
+            reconnectTimeoutRef.current = setTimeout(() => {
+              reconnectTimeoutRef.current = null;
+              connectWs();
+            }, 2000);
+          }
+        };
+        ws.onerror = () => {
+          setWsError(true);
+          setWsConnected(false);
+        };
+      };
+      connectWs();
+      return () => {
+        if (reconnectTimeoutRef.current) {
+          clearTimeout(reconnectTimeoutRef.current);
+          reconnectTimeoutRef.current = null;
+        }
+        wsRef.current?.close();
+      };
+    }
+
+    const pollMs = Math.max(400, parseInt(process.env.NEXT_PUBLIC_STREAM_POLL_MS || '800', 10) || 800);
+    let cancelled = false;
+
+    const tick = async () => {
+      if (cancelled) return;
+      const jobId = streamJobIdRef.current;
+      if (!jobId) return;
+      try {
+        const r = await fetch(`/api/stream/${jobId}`, { cache: 'no-store' });
+        if (!r.ok) {
+          setWsError(true);
+          return;
+        }
+        const blob = await r.blob();
+        const url = URL.createObjectURL(blob);
+        if (imageRef.current) {
+          const oldUrl = imageRef.current.src;
+          imageRef.current.src = url;
+          if (oldUrl.startsWith('blob:')) setTimeout(() => URL.revokeObjectURL(oldUrl), 100);
+        }
         setWsConnected(true);
         setWsError(false);
-        const activeJob = history.find(j => j.status === 'running');
-        if (activeJob) ws.send(JSON.stringify({ type: 'init', jobId: activeJob._id }));
-      };
-      ws.onmessage = async (event) => {
-        if (event.data instanceof Blob) {
-          const url = URL.createObjectURL(event.data);
-          if (imageRef.current) {
-            const oldUrl = imageRef.current.src;
-            imageRef.current.src = url;
-            if (oldUrl.startsWith('blob:')) setTimeout(() => URL.revokeObjectURL(oldUrl), 100);
-          }
-        }
-      };
-      ws.onclose = () => setWsConnected(false);
-      ws.onerror = () => { setWsError(true); setWsConnected(false); };
+      } catch {
+        setWsError(true);
+        setWsConnected(false);
+      }
     };
-    connectWs();
-    return () => wsRef.current?.close();
-  }, [running, history]);
+
+    void tick();
+    const id = setInterval(() => void tick(), pollMs);
+    return () => {
+      cancelled = true;
+      clearInterval(id);
+    };
+  }, [running]);
 
   const saveFlow = async () => {
     if (!flow) return;
@@ -179,6 +261,7 @@ export default function FlowEditPage({ params }: { params: Promise<{ flowId: str
         const data = await res.json().catch(() => ({}));
         const jobId = data && typeof data.jobId === 'string' ? data.jobId : null;
         if (jobId) {
+          streamJobIdRef.current = jobId;
           setLastStartedJobId(jobId);
           setRunning(true);
           setHistory(prev => [{
@@ -194,6 +277,10 @@ export default function FlowEditPage({ params }: { params: Promise<{ flowId: str
         }
         toast.success('Started flow');
         fetchData(false);
+      } else {
+        const err = await res.json().catch(() => ({})) as { error?: string };
+        const msg = typeof err?.error === 'string' ? err.error : res.statusText || 'Failed to start';
+        toast.error(msg);
       }
     } catch {
       toast.error('Failed to start');
@@ -202,9 +289,21 @@ export default function FlowEditPage({ params }: { params: Promise<{ flowId: str
     }
   };
 
-  const handleInteraction = (type: string, payload: Record<string, unknown>) => {
+  const handleInteraction = async (type: string, payload: Record<string, unknown>) => {
+    const jobId = streamJobIdRef.current;
+    if (!jobId) return;
     if (wsRef.current?.readyState === WebSocket.OPEN) {
       wsRef.current.send(JSON.stringify({ type, ...payload }));
+      return;
+    }
+    try {
+      await fetch(`/api/interact/${jobId}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type, ...payload }),
+      });
+    } catch {
+      toast.error('Interaction failed');
     }
   };
 
